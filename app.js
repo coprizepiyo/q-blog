@@ -7,7 +7,8 @@
  */
 var express=require('express'),
     app=express(),
-    path=require('path');
+    path=require('path'),
+    config=require('./config/default.js')
 
 //设置静态目录
 app.use(express.static(path.join(__dirname,'public')));
@@ -20,7 +21,7 @@ app.engine('html',require('ejs').renderFile);
 //引入路由
 require('./routers/router.js')(app);
 
-//监听8080端口
-app.listen(8080,function(){
-    console.log('server is running on port 8080');
+//监听config.port端口
+app.listen(config.port,function(){
+    console.log('server is running on port '+config.port);
 });

@@ -1,0 +1,151 @@
+body{
+    background-color:#dfdfe1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    width:100%;
+    height: 50px;
+}
+
+.header ul{
+    float:right;
+    margin-right: 20px;
+    
+    position:relative;
+    top:50%;
+    margin-top:-12px;
+    
+}
+
+.header ul li{
+    float:left;
+
+    background-color:#646464;
+    border-radius: 3px;
+
+    margin-right:5px;
+    
+}
+
+.header ul li:hover{
+    background-color:#7C7C7C;
+}
+
+.header ul li a{
+    display:inline-block;
+
+    height:24px;
+    line-height: 24px;
+    color:#fff;
+    font-size:12px;
+
+    padding:0 20px;
+}
+
+.title{
+    width:640px;
+    padding:25px 30px;
+    background-color:#fff;
+    overflow:hidden;
+
+    margin:0 auto 40px;
+}
+
+.title .logo{
+    float:left;
+}
+
+.title .logo img{
+    width:80px;
+    border-radius: 40px;
+}
+
+.title h1 a{
+    display:inline-block;
+    
+    padding:5px 20px;
+    font-size:24px;
+    font-weight: 500;
+}
+
+/*------------------内容部分------------------*/
+.content-continer{
+    width:640px;
+    padding:25px 30px;
+    background-color:#fff;
+    overflow:hidden;
+
+    margin:0 auto 25px;
+}
+
+.content-continer .side{
+    float:left;
+    
+    font-size:0;
+
+    margin-top:20px;
+}
+
+.content-continer .side img{
+    width:80px;
+    border-radius: 40px;
+}
+
+.content-continer .side .information{
+    width:80px;
+    text-align: center;
+}
+
+.content-continer .side .information a{
+    font-size:14px;
+    line-height: 24px;
+}
+
+.content-continer .main{
+    width:540px;
+    float:right;
+
+    
+}
+
+.content-continer .main .content-header{
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    color:#737373;
+}
+
+.content-continer .main .content-header h1{
+    font-size:18px;
+    font-weight: 700;
+}
+
+.content-continer .main .content{
+    padding:0 10px;
+    border-left:1px solid #828d95;
+
+    margin-top:30px;
+}
+
+.content-continer .main .content p{
+    font-size:14px;
+    color:#737373;
+}
+
+.content-continer .content-footer{
+    height:28px;
+    margin-top:30px;
+}
+/*------------------内容部分------------------*/

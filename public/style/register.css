@@ -11,6 +11,7 @@ input,button{
     
     background:url('../source/img/3.jpg');
     background-size:cover;
+    background-attachment: fixed;
 }
 
 .register-container{

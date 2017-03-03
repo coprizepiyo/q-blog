@@ -1,9 +1,16 @@
+/**
+ * === 前台登录模块 ========================================================================= 
+ * @version 0.0.1
+ * @author CoprizePiyo (coprizepiyo@hotmail.com)
+ * @description 提供登录相关的功能
+ * --- 2017.03.03 ----------------------------
+ */
 window.onload=function(){
     var elLogin=document.getElementById('login'),
         shieldingLayer=document.getElementById('shielding-layer');
 
     function elLoginClick(){
-        
+        shieldingLayer.style.display='block';
     }
 
     function elLoginMD(){
